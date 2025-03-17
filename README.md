@@ -9,8 +9,8 @@ Customer-Churn-Prediction/
 │   ├── cleaned_customer_data.csv         # Cleaned dataset for Tableau
 │
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb         # Jupyter Notebook for data exploration and cleaning
-│   ├── 02_model_development.ipynb        # Jupyter Notebook for model development and evaluation
+│   ├── 01_data_exploration.ipynb         # Python script for data exploration and cleaning
+│   ├── 02_model_development.ipynb        # Python script for model development and evaluation
 │
 ├── sql/
 │   ├── create_customers_table.sql        # SQL script to create the customers table
