@@ -51,20 +51,22 @@ The project is organized into the following directories:
 To run this project, you need to have Python installed along with the required libraries. You can install the dependencies using:
 ```bash
 pip install -r requirements.txt
+```
 
-## **Usage**
-**Data Exploration:** Explore the data in the Jupyter notebooks located in the notebooks/ directory.
-**Data Cleaning:** Run the Python scripts in the src/ directory for data cleaning and preprocessing.
-**Model Development:** Train the machine learning model using the scripts in the src/ directory.
-**SQL Analysis:** Use the SQL scripts in the sql/ directory to analyze churn data.
-**Visualization:** Visualize the results in Tableau and refer to the screenshots in the visualizations/ directory.
-**Model Deployment:** AWS
+## Usage
+- **Data Exploration/**: Explore the data in the Jupyter notebooks located in the notebooks/ directory.
+- **Data Cleaning/**: Run the Python scripts in the src/ directory for data cleaning and preprocessing.
+- **Model Development/**: Train the machine learning model using the scripts in the src/ directory.
+- **SQL Analysis/**: Use the SQL scripts in the sql/ directory to analyze churn data.
+- **Visualization/**: Visualize the results in Tableau and refer to the screenshots in the visualizations/ directory.
+- **Model Deployment/**: AWS.
 
-## **Results**
+## Results
 The project demonstrates a significant improvement in churn prediction accuracy through the use of machine learning techniques. The final model achieved an ROC AUC score of [insert score here], indicating its effectiveness in distinguishing between churned and retained customers.
 
-## **Acknowledgments**
-Scikit-learn for machine learning tools.
-Pandas for data manipulation and analysis.
-Seaborn and Matplotlib for data visualization.
-Tableau for creating interactive dashboards.
+## Acknowledgments
+Scikit-learn for machine learning tools.<br />
+Pandas for data manipulation and analysis.<br />
+Seaborn and Matplotlib for data visualization.<br />
+Tableau for creating interactive dashboards.<br />
+AWS for model deployment
