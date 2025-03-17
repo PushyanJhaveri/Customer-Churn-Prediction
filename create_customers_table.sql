@@ -1,0 +1,23 @@
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    gender VARCHAR(10),
+    senior_citizen INT,
+    partner VARCHAR(10),
+    dependents VARCHAR(10),
+    tenure INT,
+    phone_service VARCHAR(10),
+    multiple_lines VARCHAR(10),
+    internet_service VARCHAR(10),
+    online_security VARCHAR(10),
+    online_backup VARCHAR(10),
+    device_protection VARCHAR(10),
+    tech_support VARCHAR(10),
+    streaming_tv VARCHAR(10),
+    streaming_movies VARCHAR(10),
+    contract VARCHAR(10),
+    paperless_billing VARCHAR(10),
+    payment_method VARCHAR(10),
+    monthly_charges DECIMAL(10, 2),
+    total_charges DECIMAL(10, 2),
+    churn INT
+);
