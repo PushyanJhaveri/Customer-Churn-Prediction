@@ -32,8 +32,8 @@ Customer-Churn-Prediction/
 ```
 
 
-The **Customer Churn Prediction** project aims to develop a machine learning model that predicts customer churn for one of our client at Fingertips. This model was developed back in 2021. By analyzing customer data, the model identifies customers who are likely to leave, enabling the company to implement proactive retention strategies.
-This project leverages data cleaning, exploratory data analysis (EDA), feature engineering, and machine learning techniques to achieve its objectives.
+The **Customer Churn Prediction** project aims to develop a machine learning model that predicts customer churn for one of our client of Fingertips. This model was developed back in 2021. By analyzing customer data, the model identifies customers who are likely to leave, enabling the company to implement proactive retention strategies.
+This project leverages data cleaning, exploratory data analysis (EDA), feature engineering, and machine learning techniques to achieve its objectives. The aim of the model was to reduce the churn rate and retain the customers back for our client.
 
 ## Dataset
 The dataset used in this project is one our clients at Fingertips, which contains information about customers, including demographics, account details, and churn status. This data is of October 2020.
