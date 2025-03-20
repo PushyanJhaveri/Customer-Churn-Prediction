@@ -10,4 +10,4 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_auc_sco
 from sklearn.preprocessing import StandardScaler
 
 # Load the dataset
-data = pd.read_csv('Telco-Customer-Churn.csv')
+data = pd.read_csv('Customer-Churn.csv')
