@@ -70,17 +70,25 @@ After implementing the predictive model and retention strategies:
 
 Predicted Churn Rate: Reduced by 22%
 Increase in Retained Customers: 15% higher than the control group
-ROC-AUC Curve (Best Model)
-The Random Forest Classifier provided the best predictive performance with an AUC score of 0.91, outperforming other models.
 
+## Model Comparison
 Confusion Matrix Results
 
-|  Metrics  |    Value   |
-| ----------| ---------- |
-| Accuracy  |    87%     |
-| Precision |    85%     |
-|  Recall   |    81%     |
-| F1-Score  |    83%     |
+Below is the performance comparison of different machine learning models used for churn prediction. The **XGBoost model** achieved the highest accuracy and AUC-ROC score, making it the best-performing model.
+
+| Model               | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
+|---------------------|----------|------------|--------|------------|----------|
+| Logistic Regression | 84.2%    | 76.5%      | 72.3%  | 74.3%      | 0.82     |
+| Random Forest       | 91.3%    | 84.7%      | 81.2%  | 82.9%      | 0.91     |
+| XGBoost            | 93.5%    | 89.1%      | 87.3%  | 88.2%      | 0.95     |
+
+### **Key Insights:**
+- **XGBoost** performed the best with an **AUC-ROC of 0.95**, making it the most reliable model for predicting churn.
+- **Random Forest** also showed strong performance, with **91.3% accuracy** and high recall.
+- **Logistic Regression** performed decently but lacked predictive power compared to tree-based models.
+
+📊 **Final Model Choice:**  
+🔹 **XGBoost** was selected for deployment due to its **high accuracy, precision, and recall**, ensuring the best balance for predicting customer churn.
 
 Customer Retention Success
 By identifying at-risk customers early and applying targeted retention strategies:
