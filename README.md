@@ -1,4 +1,4 @@
-# Customer-Churn-Prediction
+# Customer-Churn-Prediction-Model-and-Retention-Strategies
 
 ## Project Structure
 ```
